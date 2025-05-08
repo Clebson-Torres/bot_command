@@ -1,0 +1,19 @@
+/target
+/target/
+**/*.rs.bk
+
+# Arquivos de log e temporários
+*.log
+*.tmp
+
+# Configurações do editor/IDE
+.idea/
+.vscode/
+*.swp
+
+# Arquivos de ambiente
+.env
+.env.*
+
+# Arquivos de dependências gerados (por segurança extra)
+Cargo.lock

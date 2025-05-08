@@ -1,0 +1,17 @@
+{
+    "windows": {
+        "📁 Listar Arquivos": "dir",
+        "🌐 Info Rede": "ipconfig /all",
+        "🖥️ Processos": "tasklist",
+        "⚙️ Info Sistema": "systeminfo",
+        "🔌 Desligar": "shutdown /s /t 60"        
+    },
+    "linux": {
+        "📁 Listar Arquivos": "ls -la",
+        "💾 Espaço Disco": "df -h",
+        "📄 Memoria": "free -h",
+        "🌐 Info Rede": "ifconfig || ip a",
+        "🔌 Desligar": "sudo /sbin/shutdown -h now",
+        "⚙️ Info Sistema": "uname -a"
+    }   
+}
